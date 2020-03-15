@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AEVWebHook", "AEVWebHook\AEVWebHook.csproj", "{380082E0-8B96-437B-983C-3D5A611CD78B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusInvoker", "ServiceBusInvoker\ServiceBusInvoker.csproj", "{8925098C-0BB7-4358-88CF-CE9E8D300664}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AEVGlobalHandlerFunc", "AEVGlobalHandlerFunc\AEVGlobalHandlerFunc.csproj", "{3DC0567F-1718-46C4-B705-B84B2193428A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEventGridInvoker", "CustomEventGridInvoker\CustomEventGridInvoker.csproj", "{BD1B9FBD-350D-4521-9D11-9168873FBBC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{380082E0-8B96-437B-983C-3D5A611CD78B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{380082E0-8B96-437B-983C-3D5A611CD78B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{380082E0-8B96-437B-983C-3D5A611CD78B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{380082E0-8B96-437B-983C-3D5A611CD78B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8925098C-0BB7-4358-88CF-CE9E8D300664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8925098C-0BB7-4358-88CF-CE9E8D300664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8925098C-0BB7-4358-88CF-CE9E8D300664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8925098C-0BB7-4358-88CF-CE9E8D300664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC0567F-1718-46C4-B705-B84B2193428A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC0567F-1718-46C4-B705-B84B2193428A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC0567F-1718-46C4-B705-B84B2193428A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC0567F-1718-46C4-B705-B84B2193428A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD1B9FBD-350D-4521-9D11-9168873FBBC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD1B9FBD-350D-4521-9D11-9168873FBBC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD1B9FBD-350D-4521-9D11-9168873FBBC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD1B9FBD-350D-4521-9D11-9168873FBBC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D97052F5-2E4C-4A93-BDDA-55E7885A7CAD}
+	EndGlobalSection
+EndGlobal
